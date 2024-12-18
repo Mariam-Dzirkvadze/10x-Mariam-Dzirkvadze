@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+h2{
+    font-size: 24px;
+    text-decoration: underline;
+}
+h3{
+    font-size: 20px;
+    color: darkgreen;
+}
+a {
+    color: darkred;
+}
+    
+#projects h3{
+    font-size: 20px;
+    color: black;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 16px;
+}
+#project2{
+    background-color: red;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 99px;
+}
+#project1{
+    background-color: blue;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 99px;
+}
+#project3{
+    background-color: yellow;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 99px;
+}
+.profile-image{
+    width: 500px;
+    height: 300px;
+}
+#about{
+    background-color: lightgray;
+    text-align: center;
+}
+
+#skills{
+    background-color: lightyellow;
+}
+
+img[src] {
+    border: 2px solid black;
+    border-radius: 50%;
+    }
+    
+nav ul li a:hover{
+    color: orange;
+}
+li::before {
+    content: "⭐ ";
+    }
+blockquote{
+    background-color: aquamarine;
+    width: 80%;
+    border-radius: 99px; 
+    display: flex;
+    align-items: center;
+}
+#testimonials{
+    display: flex;
+    text-align: center;
+}
